@@ -4,6 +4,8 @@ function getRandomHexColor() {
     .padStart(6, 0)}`;
 }
 
+let timerId = null;
+
 const buttonStart = document.querySelector('[data-start]');
 const buttonStop = document.querySelector('[data-stop]');
 const backgroundBody = document.querySelector('body');
